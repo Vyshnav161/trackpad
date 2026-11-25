@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "maxFrameSize": 65536,
+  "events": [
+    {
+      "name": "pointerMove",
+      "hex": "01013fc00000c0100000",
+      "pretty": "PointerMove(dx: 1.5, dy: -2.25)",
+      "frameHex": "0000000a01013fc00000c0100000"
+    },
+    {
+      "name": "buttonLeftDown",
+      "hex": "01020000",
+      "pretty": "ButtonAction(button: left, action: down)",
+      "frameHex": "0000000401020000"
+    },
+    {
+      "name": "buttonRightUp",
+      "hex": "01020101",
+      "pretty": "ButtonAction(button: right, action: up)",
+      "frameHex": "0000000401020101"
+    },
+    {
+      "name": "clickLeftSingle",
+      "hex": "01030001",
+      "pretty": "ClickAction(button: left, clickCount: 1)",
+      "frameHex": "0000000401030001"
+    },
+    {
+      "name": "clickRightDouble",
+      "hex": "01030102",
+      "pretty": "ClickAction(button: right, clickCount: 2)",
+      "frameHex": "0000000401030102"
+    },
+    {
+      "name": "scroll",
+      "hex": "01040000000040400000",
+      "pretty": "ScrollEvent(dx: 0.0, dy: 3.0)",
+      "frameHex": "0000000a01040000000040400000"
+    },
+    {
+      "name": "zoom",
+      "hex": "0105bf000000",
+      "pretty": "ZoomEvent(magnitude: -0.5)",
+      "frameHex": "000000060105bf000000"
+    },
+    {
+      "name": "appSwitch",
+      "hex": "0106",
+      "pretty": "AppSwitchEvent()",
+      "frameHex": "000000020106"
+    },
+    {
+      "name": "keyCharA",
+      "hex": "010700000000000041",
+      "pretty": "KeyAction(key: char U+0041, modifiers: [], action: down)",
+      "frameHex": "00000009010700000000000041"
+    },
+    {
+      "name": "keyCharEmojiMods",
+      "hex": "01070109000001f600",
+      "pretty": "KeyAction(key: char U+1F600, modifiers: [platform+shift], action: up)",
+      "frameHex": "0000000901070109000001f600"
+    },
+    {
+      "name": "keySpecialEnterCtrlAlt",
+      "hex": "010700060101",
+      "pretty": "KeyAction(key: special enter, modifiers: [alt+control], action: down)",
+      "frameHex": "00000006010700060101"
+    },
+    {
+      "name": "keySpecialF12",
+      "hex": "0107010f0114",
+      "pretty": "KeyAction(key: special f12, modifiers: [alt+control+platform+shift], action: up)",
+      "frameHex": "000000060107010f0114"
+    },
+    {
+      "name": "heartbeat",
+      "hex": "0108",
+      "pretty": "Heartbeat()",
+      "frameHex": "000000020108"
+    }
+  ],
+  "errors": [
+    {
+      "name": "empty",
+      "hex": "",
+      "kind": "malformed",
+      "message": "Malformed message: message too short: 0 bytes"
+    },
+    {
+      "name": "oneByte",
+      "hex": "01",
+      "kind": "malformed",
+      "message": "Malformed message: message too short: 1 bytes"
+    },
+    {
+      "name": "versionMismatch",
+      "hex": "0208",
+      "kind": "versionMismatch",
+      "message": "Version mismatch: found 2, supported 1"
+    },
+    {
+      "name": "unknownType",
+      "hex": "0163",
+      "kind": "malformed",
+      "message": "Malformed message: unknown event type 0x63"
+    },
+    {
+      "name": "pointerMoveShort",
+      "hex": "01010000",
+      "kind": "malformed",
+      "message": "Malformed message: PointerMove payload must be 8 bytes, got 2"
+    },
+    {
+      "name": "pointerMoveNaN",
+      "hex": "01017fc0000000000000",
+      "kind": "malformed",
+      "message": "Malformed message: non-finite float"
+    },
+    {
+      "name": "pointerMoveInf",
+      "hex": "01017f80000000000000",
+      "kind": "malformed",
+      "message": "Malformed message: non-finite float"
+    },
+    {
+      "name": "buttonUnknown",
+      "hex": "01020200",
+      "kind": "malformed",
+      "message": "Malformed message: unknown button 2"
+    },
+    {
+      "name": "buttonStateUnknown",
+      "hex": "01020002",
+      "kind": "malformed",
+      "message": "Malformed message: unknown button state 2"
+    },
+    {
+      "name": "clickCountZero",
+      "hex": "01030000",
+      "kind": "malformed",
+      "message": "Malformed message: invalid click count 0"
+    },
+    {
+      "name": "clickCountThree",
+      "hex": "01030003",
+      "kind": "malformed",
+      "message": "Malformed message: invalid click count 3"
+    },
+    {
+      "name": "heartbeatTrailing",
+      "hex": "010800",
+      "kind": "malformed",
+      "message": "Malformed message: Heartbeat payload must be 0 bytes, got 1"
+    },
+    {
+      "name": "keyShort",
+      "hex": "01070000",
+      "kind": "malformed",
+      "message": "Malformed message: KeyAction payload too short: 2 bytes"
+    },
+    {
+      "name": "keyUnknownModBits",
+      "hex": "010700100100",
+      "kind": "malformed",
+      "message": "Malformed message: unknown modifier bits 16"
+    },
+    {
+      "name": "keyUnknownKind",
+      "hex": "010700000200",
+      "kind": "malformed",
+      "message": "Malformed message: unknown key kind 2"
+    },
+    {
+      "name": "keyUnknownSpecial",
+      "hex": "010700000115",
+      "kind": "malformed",
+      "message": "Malformed message: unknown special key 21"
+    },
+    {
+      "name": "keySurrogate",
+      "hex": "01070000000000d800",
+      "kind": "malformed",
+      "message": "Malformed message: invalid codepoint 55296"
+    },
+    {
+      "name": "keyTooLargeCodepoint",
+      "hex": "010700000000110000",
+      "kind": "malformed",
+      "message": "Malformed message: invalid codepoint 1114112"
+    },
+    {
+      "name": "keyCharWrongLen",
+      "hex": "0107000000000041",
+      "kind": "malformed",
+      "message": "Malformed message: char KeyAction payload must be 7 bytes"
+    }
+  ]
+}

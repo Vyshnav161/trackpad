@@ -1,0 +1,712 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and tooling": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513881591
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513889780
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514585912
+      }
+    ],
+    "2.1 Implement `InputEvent` types and `ProtocolCodec`": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513881742
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514592251
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514676395
+      }
+    ],
+    "3.1 Implement `SettingsStore`": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513881816
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514593027
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514677009
+      }
+    ],
+    "3.5 Implement `HostInfo`, `PairedHost`, and `PairedHostStore`": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513881853
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514593609
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514675521
+      }
+    ],
+    "4.1 Implement `GestureClassifier` for pointer, tap, double-tap, and drag": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513881916
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514685059
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514790389
+      }
+    ],
+    "4.2 Extend `GestureClassifier` for scroll, zoom, app switch, and dedicated buttons": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513881950
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514793564
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514846321
+      }
+    ],
+    "5.1 Implement `KeyboardRecognizer` and modifier toggle state": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513881978
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514685687
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514788665
+      }
+    ],
+    "6. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882008
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514849555
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514892940
+      }
+    ],
+    "7.1 Implement host display mapping and manual IP validator": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882034
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514896146
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514967513
+      }
+    ],
+    "7.4 Implement the secure channel": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882069
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514896656
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514968343
+      }
+    ],
+    "7.6 Implement `WifiTransportClient` and mDNS discovery": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882111
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514972263
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515064636
+      }
+    ],
+    "7.7 Implement `BluetoothTransportClient` and Bluetooth discovery": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882140
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514973053
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515065250
+      }
+    ],
+    "7.8 Implement `TransportManager` and the connection state machine": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882166
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515069239
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515330790
+      }
+    ],
+    "8.1 Build the host list screen": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882198
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515336392
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515420836
+      }
+    ],
+    "8.2 Build the pairing screen": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882224
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515336926
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515421596
+      }
+    ],
+    "8.3 Build the Trackpad_Surface screen": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882256
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515337719
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515422422
+      }
+    ],
+    "8.4 Build the keyboard panel": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882282
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515338533
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515423455
+      }
+    ],
+    "8.5 Build the settings screen": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882306
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515339215
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515424245
+      }
+    ],
+    "8.6 Wire the app together": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882330
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515427643
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515646547
+      }
+    ],
+    "9. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882358
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515649749
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515696402
+      }
+    ],
+    "10.1 Implement the codec port": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882383
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515701338
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516285846
+      }
+    ],
+    "10.6 Implement the agent secure channel": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882416
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516290294
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516525062
+      }
+    ],
+    "10.8 Implement `PairingAuthManager`": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882440
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515701537
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516286523
+      }
+    ],
+    "10.14 Implement `EventDispatcher` and the `IInputInjector` interface": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882466
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516290981
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516524444
+      }
+    ],
+    "10.19 Implement the agent `ConnectionSession`": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882491
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516528758
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516657407
+      }
+    ],
+    "11.1 Implement `WindowsInputInjector` in `Agent.Windows`": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882518
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516529570
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516657596
+      }
+    ],
+    "11.2 Implement `MacInputInjector` in `Agent.Mac`": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882543
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516530349
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516658460
+      }
+    ],
+    "11.3 Implement the Wi-Fi server and discovery advertiser": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882576
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516662619
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578699138
+      }
+    ],
+    "11.4 Implement the Bluetooth server and discovery advertiser": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882606
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516663331
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578699208
+      }
+    ],
+    "11.5 Implement permission checks and the pairing-code display": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882632
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516664150
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578699475
+      }
+    ],
+    "11.6 Wire the agent entry point": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882655
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578704874
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578862363
+      }
+    ],
+    "13. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795513882721
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578867914
+      },
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578909882
+      }
+    ],
+    "2. Implement the Dart Protocol_Codec": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514676465
+      }
+    ],
+    "3. Implement Android storage (settings and paired hosts)": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514677046
+      }
+    ],
+    "5. Implement the Keyboard Recognizer": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514788698
+      }
+    ],
+    "4. Implement the Gesture Recognizer": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795514846365
+      }
+    ],
+    "7. Implement Android discovery, transports, and connection management": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515330831
+      }
+    ],
+    "8. Implement the Android UI and wiring": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795515646615
+      }
+    ],
+    "10. Implement the Desktop_Agent core (C#, `Agent.Core`)": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795516657468
+      }
+    ],
+    "11. Implement the Desktop_Agent platform layer": [
+      {
+        "executionId": "7baadaa6-557b-4fb4-ba7d-7eed875a5531",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795578862420
+      }
+    ],
+    "14. Build and package the macOS agent": [
+      {
+        "executionId": "f9d0e0ad-40bd-4817-83aa-3a0f9ca7d9ea",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795586754119
+      },
+      {
+        "executionId": "f9d0e0ad-40bd-4817-83aa-3a0f9ca7d9ea",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795586759306
+      },
+      {
+        "executionId": "f9d0e0ad-40bd-4817-83aa-3a0f9ca7d9ea",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795587213056
+      }
+    ],
+    "15. Build the Android APK": [
+      {
+        "executionId": "23e7651a-b247-418f-920e-d98daa623a33",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795587657550
+      },
+      {
+        "executionId": "23e7651a-b247-418f-920e-d98daa623a33",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795587663104
+      },
+      {
+        "executionId": "23e7651a-b247-418f-920e-d98daa623a33",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795587828075
+      }
+    ],
+    "16. Fix the three-finger swipe app switch": [
+      {
+        "executionId": "12f82359-5c38-4354-ab27-5491078b2c4c",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795588140577
+      },
+      {
+        "executionId": "12f82359-5c38-4354-ab27-5491078b2c4c",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795588145746
+      },
+      {
+        "executionId": "12f82359-5c38-4354-ab27-5491078b2c4c",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795588325918
+      }
+    ],
+    "17. Remove pinch zoom": [
+      {
+        "executionId": "10fe3a09-ffd6-4d9e-a353-3804f04dd6e7",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795588425158
+      },
+      {
+        "executionId": "10fe3a09-ffd6-4d9e-a353-3804f04dd6e7",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795588430793
+      },
+      {
+        "executionId": "10fe3a09-ffd6-4d9e-a353-3804f04dd6e7",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795588583989
+      }
+    ],
+    "18. Add an app-switch button to the trackpad screen": [
+      {
+        "executionId": "ff626f2d-c5b5-43bb-b2e3-36247594d8e2",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795589086175
+      },
+      {
+        "executionId": "ff626f2d-c5b5-43bb-b2e3-36247594d8e2",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795589091356
+      },
+      {
+        "executionId": "ff626f2d-c5b5-43bb-b2e3-36247594d8e2",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795589232534
+      }
+    ],
+    "19. Publish the project to a public GitHub repository": [
+      {
+        "executionId": "186342c9-e2ec-4aba-aeb6-cf08b923236a",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795589876810
+      },
+      {
+        "executionId": "186342c9-e2ec-4aba-aeb6-cf08b923236a",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795589882442
+      },
+      {
+        "executionId": "186342c9-e2ec-4aba-aeb6-cf08b923236a",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795590547049
+      },
+      {
+        "executionId": "186342c9-e2ec-4aba-aeb6-cf08b923236a",
+        "chatSessionId": "sess_3ab4a8e2-6ed3-46aa-8dcb-f83cb34ea073",
+        "timestamp": 1795590552488
+      }
+    ]
+  }
+}
